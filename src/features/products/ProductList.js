@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PencilIcon } from "@heroicons/react/16/solid";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteProduct, editSelectedProduct, productDetailById, selectProduct } from "./ProductSlice";
+import { deleteProduct, deleteProductAsync, editSelectedProduct, productDetailById, selectProduct } from "./ProductSlice";
 import { Link } from "react-router-dom";
 
 // Sample product data (can be fetched from an API)
@@ -52,9 +52,9 @@ const ProductList = () => {
     }
   }, [initialProducts]);
 
-  const handleDelete = (id) => {
-    dispatch(deleteProduct(id))
-    setSorProduct(initialProducts)
+  const handleDelete = (product) => {
+    dispatch(deleteProductAsync(product))
+    // setSorProduct(initialProducts)
   };
   const handleEdit = (product) => {
     dispatch(editSelectedProduct(product))
@@ -156,7 +156,7 @@ const ProductList = () => {
                   Edit Product
                 </Link>
                 <button
-                  onClick={() => handleDelete(product.id)}
+                  onClick={() => handleDelete(product)}
                   className="flex items-center bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition duration-200"
                   >
                   Delete Product

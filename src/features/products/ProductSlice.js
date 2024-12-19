@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { addNewProduct, fetchProduct, updateProduct } from './ProductAPI';
+import { addNewProduct, fetchProduct, updateProduct, deleteProduct } from './ProductAPI';
 
 const initialState = {
   products: [],
@@ -33,18 +33,29 @@ export const updateProductAsync = createAsyncThunk(
   }
 );
 
+export const deleteProductAsync = createAsyncThunk(
+  'product/deleteProduct',
+  async (product) => {
+    const response = await deleteProduct(product);
+    // The value we return becomes the `fulfilled` action payload
+    return response.data;
+  }
+);
+
+
+
 export const productSlice = createSlice({
   name: 'product',
   initialState,
   reducers: {
-    deleteProduct: (state, action) => {
-      const index = state.products.findIndex((product) => product.id === action.payload)
-      if (index !== -1) { 
-        state.products.splice(index, 1)
-      } else {
-        console.warn("Product not found: ", action.payload);
-      }
-    },
+    // deleteProduct: (state, action) => {
+    //   const index = state.products.findIndex((product) => product.id === action.payload)
+    //   if (index !== -1) { 
+    //     state.products.splice(index, 1)
+    //   } else {
+    //     console.warn("Product not found: ", action.payload);
+    //   }
+    // },
     editSelectedProduct: (state, action) => {
       state.selectedProduct = action.payload
         },
@@ -75,11 +86,23 @@ export const productSlice = createSlice({
         state.status = 'idle';
         const index = state.products.findIndex((product) => product.id === action.payload.id)
         state.products[index] = action.payload
+      })
+      .addCase(deleteProductAsync.pending, (state) => {
+        state.status = 'loading';
+      })
+      .addCase(deleteProductAsync.fulfilled, (state, action) => {
+        state.status = 'idle';
+        const index = state.products.findIndex((product) => product.id === action.payload.id)
+        if (index !== -1) { 
+          state.products.splice(index, 1)
+        } else {
+          console.warn("Product not found: ", action.payload);
+        }
       });
   },
 });
 
-export const { deleteProduct, editSelectedProduct, productDetailById } = productSlice.actions;
+export const { editSelectedProduct, productDetailById } = productSlice.actions;
 export const selectProduct = (state) => state.product.products;
 export const selectedProductSelector = (state) => state.product.selectedProduct;
 export const productDetailSelector = (state) => state.product.productDetail;

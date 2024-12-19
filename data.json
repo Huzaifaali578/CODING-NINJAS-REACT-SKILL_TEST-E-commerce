@@ -241,14 +241,6 @@
       "image": "https://m.media-amazon.com/images/I/51GSe9rxsoL._AC_UL320_.jpg"
     },
     {
-      "id": "31",
-      "name": "Product 31",
-      "description": "xyz",
-      "price": "125",
-      "rating": "3",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61rbYFj7DgL._AC_UL450_SR450,320_.jpg"
-    },
-    {
       "id": "32",
       "name": "Bewakoof",
       "description": "Bewakoof Men's Graphic Printed 100% Cotton T-Shirt - Regular Fit, Round Neck, Half Sleeves",
@@ -263,15 +255,17 @@
       "price": "33449",
       "rating": "4",
       "image": "https://m.media-amazon.com/images/I/61goypdjAYL._SX679_.jpg"
-    },
-    {
-      "id": "34",
-      "name": "Microsoft New Surface Laptop ",
-      "description": " (7th Edition) - Windows 11 Home Copilot + PC - 15” LCD PixelSense Touchscreen - Qualcomm Snapdragon X Elite (12 Core) - 16GB RAM - 1TB SSD - Graphite - ZYT-00048",
-      "price": "178990",
-      "rating": "4",
-      "image": "https://m.media-amazon.com/images/I/510uTHyDqGL._SX522_.jpg"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "2",
+      "name": "Product 2",
+      "description": "This is another amazing product that you will love.",
+      "price": 49.99,
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/319gA8qcFRL._AC_UL320_.jpg",
+      "quantity": 3
+    }
+  ]
 }
