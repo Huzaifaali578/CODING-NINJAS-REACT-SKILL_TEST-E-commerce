@@ -35,19 +35,15 @@ including price, description, and images.</li>
 <li>JSON Server: Acts as a mock API to manage products and cart data.</li>
 <ul>
 
-## Tech Stack
-
-### Frontend
-
+ Tech Stack
+ Frontend
 React: JavaScript library for building user interfaces.
 Tailwind CSS: Utility-first CSS framework for styling.
 
-### Backend
-
+ Backend
 JSON Server: Lightweight server to simulate API endpoints.
 
-### State Management
-
+ State Management
 Redux Toolkit: Simplified state management and asynchronous operations.
 
 ## Installation and Setup
@@ -59,17 +55,23 @@ Node.js installed on your machine.
 ### Steps to Run the Application
 
 Clone the Repository:
+
 git clone https://github.com/your-username/react-ecommerce-app.git
+
 cd react-ecommerce-app
 
 Install Dependencies:
+
 npm install
 
 Start the Backend Server:
+
 npx json-server --watch db.json --port 5000
 
 Start the Frontend:
+
 npm start
 
 Access the Application:
+
 Open http://localhost:3000 in your browser.
