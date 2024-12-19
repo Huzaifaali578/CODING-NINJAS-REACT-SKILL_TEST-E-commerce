@@ -2,7 +2,7 @@
 
 This is a fully functional e-commerce application built using React and styled with Tailwind CSS. The application provides a seamless shopping experience, including product listing, cart management, and checkout features. It interacts with a backend API powered by json-server for data management.
 
-## Features
+Features
 
 1. Product Display
 <ul>
@@ -34,8 +34,9 @@ including price, description, and images.</li>
 <ul>
 <li>JSON Server: Acts as a mock API to manage products and cart data.</li>
 <ul>
-
+ 
  Tech Stack
+ 
  Frontend
 React: JavaScript library for building user interfaces.
 Tailwind CSS: Utility-first CSS framework for styling.
