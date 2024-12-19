@@ -47,3 +47,7 @@ This is a fully functional e-commerce application built using React and styled w
    ```bash
    git clone https://github.com/your-username/react-ecommerce-app.git
    cd react-ecommerce-app
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
