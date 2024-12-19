@@ -54,7 +54,7 @@ This is a fully functional e-commerce application built using React and styled w
 
 3. **Start the Backend Server:**
    ```bash
-   npx json-server --watch db.json --port 8081
+   npx json-server --watch data.json --port 8081
 
 4. **Start the Frontend:**
    ```bash
