@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
 
         {/* Search Bar */}
-        <div className="flex items-center w-full max-w-md mx-4">
+        {/* <div className="flex items-center w-full max-w-md mx-4">
           <input
             type="text"
             placeholder="Search products..."
@@ -25,7 +25,7 @@ const Navbar = () => {
           <button className="bg-blue-500 text-white px-4 py-2 rounded-r-lg hover:bg-blue-600">
             Search
           </button>
-        </div>
+        </div> */}
 
         {/* Icons and Links */}
         <div className="flex items-center space-x-6">
