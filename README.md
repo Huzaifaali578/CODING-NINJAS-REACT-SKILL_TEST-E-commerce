@@ -59,7 +59,3 @@ This is a fully functional e-commerce application built using React and styled w
 4. **Start the Frontend:**
    ```bash
    npm start
-
-
-
-
