@@ -1,0 +1,277 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "description": "This is a great product with amazing features.",
+      "price": 29.99,
+      "rating": 4.5,
+      "image": "https://m.media-amazon.com/images/I/713SsA7gftL._AC_UL320_.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "description": "This is another amazing product that you will love.",
+      "price": 49.99,
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/319gA8qcFRL._AC_UL320_.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "description": "This product is affordable and packed with great features.",
+      "price": "190",
+      "rating": "3",
+      "image": "https://m.media-amazon.com/images/I/21rFLTV3tML._AC_UL320_.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Product 4",
+      "description": "A top-quality product that is highly recommended.",
+      "price": 39.99,
+      "rating": 5,
+      "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_UL320_.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Product 5",
+      "description": "This product offers excellent value for money.",
+      "price": 24.99,
+      "rating": 4.2,
+      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._AC_UL320_.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "description": "A must-have product for tech enthusiasts.",
+      "price": 59.99,
+      "rating": 4.8,
+      "image": "https://m.media-amazon.com/images/I/61l9ppRIiqL._AC_UL320_.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Product 7",
+      "description": "A versatile product suitable for all your needs.",
+      "price": 34.99,
+      "rating": 4.6,
+      "image": "https://m.media-amazon.com/images/I/71xb2xkN5qL._AC_UL320_.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Product 8",
+      "description": "This product combines quality and affordability.",
+      "price": 44.99,
+      "rating": 4.3,
+      "image": "https://m.media-amazon.com/images/I/61lLjrvDEkL._AC_UL320_.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Product 9",
+      "description": "A durable product that will last for years.",
+      "price": 54.99,
+      "rating": 4.9,
+      "image": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_UL320_.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Product 10",
+      "description": "A popular product with outstanding reviews.",
+      "price": "500",
+      "rating": 5,
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61JDg6pGGJL._AC_UL450_SR450,320_.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Product 11",
+      "description": "A reliable product for everyday use.",
+      "price": 19.99,
+      "rating": 3.9,
+      "image": "https://m.media-amazon.com/images/I/61-r9zOKBCL._AC_UL320_.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Product 12",
+      "description": "An innovative product with cutting-edge features.",
+      "price": 89.99,
+      "rating": 4.7,
+      "image": "https://m.media-amazon.com/images/I/71zFRCcMS2L._AC_UL320_.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Product 13",
+      "description": "A trendy product that suits modern lifestyles.",
+      "price": 27.99,
+      "rating": 4.1,
+      "image": "https://m.media-amazon.com/images/I/71PjpS59XLL._AC_UL320_.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Product 14",
+      "description": "A compact product that is easy to carry.",
+      "price": 15.99,
+      "rating": 3.8,
+      "image": "https://m.media-amazon.com/images/I/41s9DmRSgcL._AC_UL320_.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Product 15",
+      "description": "A stylish product with premium build quality.",
+      "price": 74.99,
+      "rating": 4.5,
+      "image": "https://m.media-amazon.com/images/I/71657TiFeHL._AC_UL320_.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Product 16",
+      "description": "A highly functional product for professionals.",
+      "price": 99.99,
+      "rating": 4.8,
+      "image": "https://m.media-amazon.com/images/I/41iLLpfSWxL._AC_UL320_.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Product 17",
+      "description": "An eco-friendly product made with sustainable materials.",
+      "price": 12.99,
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/71L5lSfJIPS._AC_UL320_.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Product 18",
+      "description": "A top-rated product that is a customer favorite.",
+      "price": 29.99,
+      "rating": 4.9,
+      "image": "https://m.media-amazon.com/images/I/61cwywLZR-L._AC_UL320_.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Product 19",
+      "description": "A lightweight product that is easy to handle.",
+      "price": 32.99,
+      "rating": 4.2,
+      "image": "https://m.media-amazon.com/images/I/41FXV50IUdL._AC_UL320_.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Product 20",
+      "description": "A perfect product for gifting purposes.",
+      "price": 45.99,
+      "rating": 4.6,
+      "image": "https://m.media-amazon.com/images/I/71gm8v4uPBL._AC_UL320_.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Product 21",
+      "description": "A robust product for outdoor adventures.",
+      "price": 55.99,
+      "rating": 4.7,
+      "image": "https://m.media-amazon.com/images/I/71REplb5oZL._AC_UL320_.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Product 22",
+      "description": "A well-designed product that combines style and functionality.",
+      "price": 41.99,
+      "rating": 4.3,
+      "image": "https://m.media-amazon.com/images/I/615O-NFQKdL._AC_UL320_.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Product 23",
+      "description": "A high-performance product for tech enthusiasts.",
+      "price": 99.99,
+      "rating": 5,
+      "image": "https://m.media-amazon.com/images/I/81LJaRu0cZL._AC_UL320_.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Product 24",
+      "description": "A cost-effective product with essential features.",
+      "price": 14.99,
+      "rating": 3.7,
+      "image": "https://m.media-amazon.com/images/I/61rnCkrurxL._AC_UL320_.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Product 25",
+      "description": "A user-friendly product suitable for beginners.",
+      "price": 22.99,
+      "rating": 4.1,
+      "image": "https://m.media-amazon.com/images/I/81oKOk65TgL._AC_UL320_.jpg"
+    },
+    {
+      "id": "26",
+      "name": "Product 26",
+      "description": "A reliable product that exceeds expectations.",
+      "price": 36.99,
+      "rating": 4.4,
+      "image": "https://m.media-amazon.com/images/I/61-E0V81kBL._AC_UL320_.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Product 27",
+      "description": "An affordable product without compromising quality.",
+      "price": 18.99,
+      "rating": 3.9,
+      "image": "https://m.media-amazon.com/images/I/71hUPwNiLfL._AC_UL320_.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Product 28",
+      "description": "A premium product for a luxury experience.",
+      "price": 125.99,
+      "rating": 4.9,
+      "image": "https://m.media-amazon.com/images/I/5155PFA2N+L._AC_UL320_.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Product 29",
+      "description": "A smart product with advanced features.",
+      "price": 69.99,
+      "rating": 4.7,
+      "image": "https://m.media-amazon.com/images/I/51GSe9rxsoL._AC_UL320_.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Product 30",
+      "description": "A durable product built to last.",
+      "price": 42.99,
+      "rating": 4.5,
+      "image": "https://m.media-amazon.com/images/I/51GSe9rxsoL._AC_UL320_.jpg"
+    },
+    {
+      "id": "31",
+      "name": "Product 31",
+      "description": "xyz",
+      "price": "125",
+      "rating": "3",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61rbYFj7DgL._AC_UL450_SR450,320_.jpg"
+    },
+    {
+      "id": "32",
+      "name": "Bewakoof",
+      "description": "Bewakoof Men's Graphic Printed 100% Cotton T-Shirt - Regular Fit, Round Neck, Half Sleeves",
+      "price": "398",
+      "rating": "3",
+      "image": "https://m.media-amazon.com/images/I/51cyKm1l+sL._SY550_.jpg"
+    },
+    {
+      "id": "33",
+      "name": "Apple iPad",
+      "description": "(10th Generation): with A14 Bionic chip, 27.69 cm",
+      "price": "33449",
+      "rating": "4",
+      "image": "https://m.media-amazon.com/images/I/61goypdjAYL._SX679_.jpg"
+    },
+    {
+      "id": "34",
+      "name": "Microsoft New Surface Laptop ",
+      "description": " (7th Edition) - Windows 11 Home Copilot + PC - 15” LCD PixelSense Touchscreen - Qualcomm Snapdragon X Elite (12 Core) - 16GB RAM - 1TB SSD - Graphite - ZYT-00048",
+      "price": "178990",
+      "rating": "4",
+      "image": "https://m.media-amazon.com/images/I/510uTHyDqGL._SX522_.jpg"
+    }
+  ],
+  "cart": []
+}
