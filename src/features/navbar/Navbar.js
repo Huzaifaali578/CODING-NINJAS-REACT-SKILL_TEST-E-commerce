@@ -7,7 +7,6 @@ const Navbar = () => {
   const cart = useSelector(selectCart)
     return (
       <>
-      
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
