@@ -58,14 +58,14 @@ const ProductList = () => {
   };
   const handleEdit = (product) => {
     dispatch(editSelectedProduct(product))
-    // console.log("edit",product);
+    // // console.log("edit",product);
   };
 
   // handle sort funtion
   const handleSort = (value) => {
     // Split value into field and order
     const [field, order] = value.split('-')
-    // console.log(field, order)
+    // // console.log(field, order)
     const sortedProducts = [...initialProducts].sort((a, b) => {
       if (order === "asc") {
         return a[field] > b[field] ? 1 : a[field] < b[field] ? -1 : 0;
