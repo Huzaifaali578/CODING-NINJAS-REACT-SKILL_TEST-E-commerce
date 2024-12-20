@@ -11,7 +11,7 @@ export function addTocart(cartProduct) {
         throw new Error("Product not added in the cart")
       }
       const data = await response.json()
-      console.log("addtoCart",data)
+      // console.log("addtoCart",data)
       resolve({data})
     } catch (err) {
       reject(err)
@@ -47,7 +47,7 @@ export function updatecart(update) {
         throw new Error("Product not added in the cart")
       }
       const data = await response.json()
-      console.log("addtoCart",data)
+      // console.log("addtoCart",data)
       resolve({data})
     } catch (err) {
       reject(err)
@@ -68,7 +68,7 @@ export function RemoveFromcart(remove) {
         throw new Error("Product not added in the cart")
       }
       const data = await response.json()
-      console.log("addtoCart",data)
+      // console.log("addtoCart",data)
       resolve({data})
     } catch (err) {
       reject(err)
