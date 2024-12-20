@@ -4,9 +4,6 @@ import ProductPage from './pages/ProductPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import CartPage from './pages/CartPage';
 import AddProduct from './pages/AddProduct';
-import { useDispatch } from 'react-redux';
-import { fetchProductAsync } from './features/products/ProductSlice';
-import ProductDetail from './features/products/component/ProductDetail';
 import ProductDetailPage from './pages/ProductDetailPage';
 
 const router = createBrowserRouter([
@@ -24,10 +21,6 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-  // const dispatch = useDispatch()
-  // useEffect(() => {
-  //   dispatch(fetchProductAsync())
-  // },[])
   return (
     <>
       <RouterProvider router={router}>
