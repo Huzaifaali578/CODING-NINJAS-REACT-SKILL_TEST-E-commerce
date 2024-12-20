@@ -7,7 +7,7 @@ export function fetchProduct() {
         throw new Error("Product not found");
       }
       const data = await response.json();
-      // // console.log(data);
+      // console.log(data);
       resolve({ data });
     } catch (err) {
       console.error("Error fetching products:", err.message);
@@ -27,7 +27,7 @@ export function addNewProduct(product) {
         throw new Error("Product not found");
       }
       const data = await response.json();
-      // // console.log(data);
+      // console.log(data);
       resolve({ data });
     } catch (err) {
       console.error("Error fetching products:", err.message);
@@ -47,7 +47,7 @@ export function updateProduct(product) {
         throw new Error("Product not found");
       }
       const data = await response.json();
-      // // console.log(data);
+      // console.log(data);
       resolve({ data });
     } catch (err) {
       console.error("Error fetching products:", err.message);
@@ -67,7 +67,7 @@ export function deleteProduct(product) {
         throw new Error("Product not found");
       }
       const data = await response.json();
-      // // console.log(data);
+      // console.log(data);
       resolve({ data });
     } catch (err) {
       console.error("Error fetching products:", err.message);

@@ -245,27 +245,9 @@
       "name": "Bewakoof",
       "description": "Bewakoof Men's Graphic Printed 100% Cotton T-Shirt - Regular Fit, Round Neck, Half Sleeves",
       "price": "398",
-      "rating": "3",
-      "image": "https://m.media-amazon.com/images/I/51cyKm1l+sL._SY550_.jpg"
-    },
-    {
-      "id": "33",
-      "name": "Apple iPad",
-      "description": "(10th Generation): with A14 Bionic chip, 27.69 cm",
-      "price": "33449",
       "rating": "4",
-      "image": "https://m.media-amazon.com/images/I/61goypdjAYL._SX679_.jpg"
+      "image": "https://m.media-amazon.com/images/I/51cyKm1l+sL._SY550_.jpg"
     }
   ],
-  "cart": [
-    {
-      "id": "2",
-      "name": "Product 2",
-      "description": "This is another amazing product that you will love.",
-      "price": 49.99,
-      "rating": 4,
-      "image": "https://m.media-amazon.com/images/I/319gA8qcFRL._AC_UL320_.jpg",
-      "quantity": 3
-    }
-  ]
+  "cart": []
 }

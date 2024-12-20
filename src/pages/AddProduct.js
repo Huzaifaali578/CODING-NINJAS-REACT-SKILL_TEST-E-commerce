@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addNewProductAsync, editSelectedProduct, selectedProductSelector, selectProduct, updateProductAsync } from "../features/products/ProductSlice";
+import { addNewProductAsync, selectedProductSelector, selectProduct, updateProductAsync } from "../features/products/ProductSlice";
 import { Navigate, useParams } from "react-router-dom";
 
 const AddProduct = () => {
@@ -44,10 +44,10 @@ const AddProduct = () => {
 
     if (editSelectedProduct && params.id) {
       dispatch(updateProductAsync({ ...product, id: editSelectedProduct.id }));
-      // console.log("Editing Product:", { ...product, id: editSelectedProduct.id });
+      console.log("Editing Product:", { ...product, id: editSelectedProduct.id });
     } else {
       dispatch(addNewProductAsync({ ...product, id: `${initialProducts.length + 1}` }));
-      // console.log("Adding New Product:", { ...product, id: initialProducts.length + 1 });
+      console.log("Adding New Product:", { ...product, id: initialProducts.length + 1 });
     }
 
     setProduct({

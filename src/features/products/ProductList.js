@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PencilIcon } from "@heroicons/react/16/solid";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteProduct, deleteProductAsync, editSelectedProduct, productDetailById, selectProduct } from "./ProductSlice";
+import {  deleteProductAsync, editSelectedProduct, productDetailById, selectProduct } from "./ProductSlice";
 import { Link } from "react-router-dom";
 
 // Sample product data (can be fetched from an API)
@@ -41,7 +41,6 @@ import { Link } from "react-router-dom";
 // ];
 
 const ProductList = () => {
-  const [cart, setCart] = useState([]);
   const initialProducts = useSelector(selectProduct);
   const [sortProduct, setSorProduct] = useState([]);
   const dispatch = useDispatch()
@@ -58,14 +57,14 @@ const ProductList = () => {
   };
   const handleEdit = (product) => {
     dispatch(editSelectedProduct(product))
-    // // console.log("edit",product);
+    // console.log("edit",product);
   };
 
   // handle sort funtion
   const handleSort = (value) => {
     // Split value into field and order
     const [field, order] = value.split('-')
-    // // console.log(field, order)
+    // console.log(field, order)
     const sortedProducts = [...initialProducts].sort((a, b) => {
       if (order === "asc") {
         return a[field] > b[field] ? 1 : a[field] < b[field] ? -1 : 0;

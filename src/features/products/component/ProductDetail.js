@@ -1,11 +1,9 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { productDetailSelector } from "../ProductSlice";
 import { addTocartAsync, fetchCartItemAsync, selectCart, updatecartAsync } from "../../Cart/cartSlice";
 
 const ProductDetail = () => {
-  const { id } = useParams();
     const product = useSelector(productDetailSelector);
     const cart = useSelector(selectCart)
     const dispatch = useDispatch()
@@ -24,14 +22,14 @@ const ProductDetail = () => {
         if (index !== -1 && cart[index].id === product.id) { 
             dispatch(updatecartAsync({ ...cart[index], quantity: cart[index].quantity + 1 }))
             // dispatch(fetchCartItemAsync())
-            // // console.log("item in cart", { ...cart[index], quantity: cart[index].quantity + 1 });
+            // console.log("item in cart", { ...cart[index], quantity: cart[index].quantity + 1 });
             alert("Item Is Already In Cart Quantity Updated ")
             return;
         } else {
             dispatch(addTocartAsync({ ...product, quantity: 1 }))
             dispatch(fetchCartItemAsync())
             alert("Item Added successfully")
-            // // console.log("add to cart", { ...product, quantity: 1 });
+            // console.log("add to cart", { ...product, quantity: 1 });
         }
     }
 
